@@ -2,7 +2,7 @@ session_id : the ID of the session the event took place in
 
 index : the index of the event for the session
 
-elapsed_time : how much time has passed (in milliseconds) between the start of the session and when the event was recorded
+elapsed_time : Time passed (in milliseconds) since the start of the session to when the event was recorded
 
 event_name : the name of the event type
 	cutscene_click
