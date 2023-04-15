@@ -1,0 +1,4 @@
+session_id : The ID of the session, the question was answer
+	Format - <session_id>_q<level>
+
+correct : Whether the question was answered correctly
