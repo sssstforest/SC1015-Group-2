@@ -1,0 +1,365 @@
+session_id : The ID of the session the event took place in
+
+index : The index of the event for the session
+
+elapsed_time : Time passed (in milliseconds) since the start of the session to when the event was recorded
+
+event_name : The name of the event type
+	cutscene_click
+	person_click
+	navigate_click
+	observation_click
+	notification_click
+	object_click
+	object_hover
+	map_hover
+	map_click
+	checkpoint
+	notebook_click
+
+name : The event name of a notebook_click
+	basic
+	undefined
+	close
+	open
+	prev
+	next
+
+level : Question number of the game the event occurred in (0 to 22)
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+
+page : The page number of notebook-related event
+	Nan
+	0.
+	1.
+	2.
+	3.
+	4.
+	5.
+	6.
+
+room_coor_x : The x-coordinates (horizontal) of the click in reference to the in-game room
+
+room_coor_y : The y-coordinates (vertical) of the click in reference to the in-game room
+
+screen_coor_x : The x-coordinates (horizontal) of the click in reference to the player’s screen
+
+screen_coor_y : the y-coordinates (vertical) of the click in reference to the player’s screen
+
+hover_duration : Duration (in milliseconds) of the hover for hover events
+
+text : The text the player sees during the event
+	intro
+	gramps
+	teddy
+	photo
+	nan
+	notebook
+	retirement_letter
+	tobasement
+	janitor
+	toentry
+	groupconvo
+	report
+	boss
+	wells
+	directory
+	tocollection
+	cs
+	tunic
+	tunic.hub.slip
+	tostacks
+	outtolunch
+	tocloset
+	tomap
+	tunic.historicalsociety
+	tunic.kohlcenter
+	plaque
+	plaque.face.date
+	togrampa
+	tunic.capitol_0
+	chap1_finale
+	chap1_finale_c
+	tocloset_dirty
+	what_happened
+	trigger_scarf
+	trigger_coffee
+	tunic.capitol_1
+	tofrontdesk
+	archivist
+	magnify
+	tunic.humanecology
+	worker
+	businesscards
+	businesscards.card_0.next
+	businesscards.card_1.next
+	businesscards.card_bingo.next
+	businesscards.card_bingo.bingo
+	tohallway
+	tunic.drycleaner
+	logbook
+	logbook.page.bingo
+	tunic.library
+	tomicrofiche
+	reader
+	reader.paper0.next
+	reader.paper1.next
+	reader.paper2.bingo
+	wellsbadge
+	journals
+	journals.hub.topics
+	journals.pic_0.next
+	journals.pic_1.next
+	journals.pic_2.bingo
+	chap2_finale_c
+	ch3start
+	seescratches
+	tocage
+	glasses
+	directory.closeup.archivist
+	key
+	unlockdoor
+	confrontation
+	savedteddy
+	tocollectionflag
+	groupconvo_flag
+	tunic.capitol_2
+	tunic.wildlife
+	coffee
+	crane_ranger
+	remove_cup
+	expert
+	tracks
+	tracks.hub.deer
+	tunic.flaghouse
+	flag_girl
+	colorbook
+	reader_flag
+	reader_flag.paper0.next
+	reader_flag.paper1.next
+	reader_flag.paper2.bingo
+	archivist_glasses
+	journals_flag
+	journals_flag.hub.topics_old
+	journals_flag.hub.topics
+	journals_flag.pic_0.bingo
+	journals_flag.pic_0.next
+	chap4_finale_c
+	block_tocollection
+	reader.paper2.next
+	journals.pic_2.next
+	lockeddoor
+	reader.paper2.prev
+	reader.paper0.prev
+	reader_flag.paper1.prev
+	journals_flag.pic_0_old.next
+	journals_flag.pic_1_old.next
+	door_block_clean
+	door_block_talk
+	block
+	reader_flag.paper2.next
+	journals_flag.pic_1.bingo
+	journals_flag.pic_1.next
+	journals_flag.pic_2.bingo
+	journals_flag.pic_2.next
+	reader_flag.paper0.prev
+	reader.paper1.prev
+	block_magnify
+	journals_flag.pic_2_old.next
+	block_0
+	doorblock
+	block_tomap1
+	block_tomap2
+	reader_flag.paper2.prev
+	need_glasses
+	block_badge
+	block_nelson
+	block_badge_2
+	block_1
+	fox
+
+room_fqid : The fully qualified ID of the room the event took place in
+	tunic.historicalsociety.closet
+	tunic.historicalsociety.basement
+	tunic.historicalsociety.entry
+	tunic.historicalsociety.collection
+	tunic.historicalsociety.stacks
+	tunic.kohlcenter.halloffame
+	tunic.capitol_0.hall
+	tunic.historicalsociety.closet_dirty
+	tunic.historicalsociety.frontdesk
+	tunic.humanecology.frontdesk
+	tunic.drycleaner.frontdesk
+	tunic.library.frontdesk
+	tunic.library.microfiche
+	tunic.capitol_1.hall
+	tunic.historicalsociety.cage
+	tunic.historicalsociety.collection_flag
+	tunic.wildlife.center
+	tunic.flaghouse.entry
+	tunic.capitol_2.hall
+
+text_fqid : The fully qualified ID of the text the event took place in
+	tunic.historicalsociety.closet.intro
+	tunic.historicalsociety.closet.gramps.intro_0_cs_0
+	tunic.historicalsociety.closet.teddy.intro_0_cs_0
+	nan
+	tunic.historicalsociety.closet.teddy.intro_0_cs_5
+	tunic.historicalsociety.closet.photo
+	tunic.historicalsociety.closet.notebook
+	tunic.historicalsociety.closet.retirement_letter.hub
+	tunic.historicalsociety.basement.janitor
+	tunic.historicalsociety.entry.groupconvo
+	tunic.historicalsociety.entry.boss.talktogramps
+	tunic.historicalsociety.entry.wells.talktogramps
+	tunic.historicalsociety.collection.cs
+	tunic.historicalsociety.collection.tunic.slip
+	tunic.historicalsociety.collection.gramps.found
+	tunic.historicalsociety.stacks.outtolunch
+	tunic.kohlcenter.halloffame.plaque.face.date
+	tunic.kohlcenter.halloffame.togrampa
+	tunic.capitol_0.hall.boss.talktogramps
+	tunic.historicalsociety.closet_dirty.what_happened
+	tunic.historicalsociety.closet_dirty.gramps.helpclean
+	tunic.historicalsociety.closet_dirty.trigger_scarf
+	tunic.historicalsociety.closet_dirty.trigger_coffee
+	tunic.historicalsociety.closet_dirty.gramps.news
+	tunic.historicalsociety.frontdesk.archivist.hello
+	tunic.historicalsociety.frontdesk.archivist.need_glass_0
+	tunic.historicalsociety.frontdesk.magnify
+	tunic.historicalsociety.frontdesk.archivist.have_glass
+	tunic.historicalsociety.frontdesk.archivist.have_glass_recap
+	tunic.humanecology.frontdesk.worker.intro
+	tunic.humanecology.frontdesk.businesscards.card_bingo.bingo
+	tunic.humanecology.frontdesk.worker.badger
+	tunic.drycleaner.frontdesk.worker.hub
+	tunic.drycleaner.frontdesk.logbook.page.bingo
+	tunic.drycleaner.frontdesk.worker.done
+	tunic.library.frontdesk.worker.hello
+	tunic.library.microfiche.reader.paper2.bingo
+	tunic.library.frontdesk.wellsbadge.hub
+	tunic.library.frontdesk.worker.wells
+	tunic.capitol_1.hall.boss.haveyougotit
+	tunic.historicalsociety.frontdesk.archivist.newspaper
+	tunic.historicalsociety.stacks.journals.pic_2.bingo
+	tunic.historicalsociety.basement.ch3start
+	tunic.historicalsociety.basement.gramps.whatdo
+	tunic.historicalsociety.basement.seescratches
+	tunic.historicalsociety.cage.glasses.beforeteddy
+	tunic.historicalsociety.cage.teddy.trapped
+	tunic.historicalsociety.cage.glasses.afterteddy
+	tunic.historicalsociety.entry.directory.closeup.archivist
+	tunic.historicalsociety.frontdesk.key
+	tunic.historicalsociety.cage.unlockdoor
+	tunic.historicalsociety.cage.confrontation
+	tunic.historicalsociety.basement.savedteddy
+	tunic.historicalsociety.collection_flag.gramps.flag
+	tunic.historicalsociety.entry.groupconvo_flag
+	tunic.historicalsociety.entry.wells.flag
+	tunic.historicalsociety.entry.boss.flag
+	tunic.historicalsociety.entry.wells.flag_recap
+	tunic.historicalsociety.entry.boss.flag_recap
+	tunic.wildlife.center.coffee
+	tunic.wildlife.center.wells.animals
+	tunic.wildlife.center.wells.animals2
+	tunic.wildlife.center.crane_ranger.crane
+	tunic.wildlife.center.remove_cup
+	tunic.wildlife.center.expert.removed_cup
+	tunic.wildlife.center.tracks.hub.deer
+	tunic.wildlife.center.expert.recap
+	tunic.wildlife.center.wells.nodeer
+	tunic.flaghouse.entry.flag_girl.hello
+	tunic.flaghouse.entry.colorbook
+	tunic.flaghouse.entry.flag_girl.symbol
+	tunic.flaghouse.entry.flag_girl.symbol_recap
+	tunic.library.frontdesk.worker.flag
+	tunic.library.microfiche.reader_flag.paper2.bingo
+	tunic.library.frontdesk.worker.nelson
+	tunic.historicalsociety.frontdesk.archivist_glasses.confrontation
+	tunic.historicalsociety.stacks.journals_flag.pic_0.bingo
+	tunic.historicalsociety.entry.block_tocollection
+	tunic.historicalsociety.closet_dirty.gramps.archivist
+	tunic.historicalsociety.cage.lockeddoor
+	tunic.capitol_2.hall.boss.haveyougotit
+	tunic.drycleaner.frontdesk.worker.done2
+	tunic.library.frontdesk.worker.preflag
+	tunic.historicalsociety.closet_dirty.photo
+	tunic.historicalsociety.collection_flag.gramps.recap
+	tunic.wildlife.center.wells.nodeer_recap
+	tunic.library.frontdesk.worker.flag_recap
+	tunic.historicalsociety.frontdesk.archivist_glasses.confrontation_recap
+	tunic.historicalsociety.closet_dirty.door_block_clean
+	tunic.historicalsociety.closet_dirty.door_block_talk
+	tunic.historicalsociety.stacks.block
+	tunic.flaghouse.entry.flag_girl.hello_recap
+	tunic.historicalsociety.stacks.journals_flag.pic_1.bingo
+	tunic.historicalsociety.stacks.journals_flag.pic_2.bingo
+	tunic.historicalsociety.collection.tunic
+	tunic.library.frontdesk.worker.wells_recap
+	tunic.historicalsociety.frontdesk.block_magnify
+	tunic.humanecology.frontdesk.block_0
+	tunic.historicalsociety.basement.gramps.seeyalater
+	tunic.historicalsociety.frontdesk.archivist.need_glass_1
+	tunic.historicalsociety.closet.doorblock
+	tunic.library.frontdesk.worker.droppedbadge
+	tunic.library.frontdesk.worker.hello_short
+	tunic.capitol_1.hall.boss.writeitup
+	tunic.historicalsociety.entry.block_tomap1
+	tunic.historicalsociety.entry.block_tomap2
+	tunic.capitol_0.hall.chap1_finale_c
+	tunic.historicalsociety.collection.gramps.lost
+	tunic.historicalsociety.closet_dirty.gramps.nothing
+	tunic.drycleaner.frontdesk.worker.takealook
+	tunic.historicalsociety.frontdesk.archivist.foundtheodora
+	tunic.historicalsociety.cage.need_glasses
+	tunic.library.frontdesk.worker.nelson_recap
+	tunic.library.frontdesk.block_badge
+	tunic.historicalsociety.frontdesk.archivist.newspaper_recap
+	tunic.kohlcenter.halloffame.block_0
+	tunic.library.frontdesk.block_nelson
+	tunic.capitol_1.hall.chap2_finale_c
+	tunic.library.microfiche.block_0
+	tunic.library.frontdesk.block_badge_2
+	tunic.capitol_2.hall.chap4_finale_c
+	tunic.historicalsociety.collection.gramps.look_0
+	tunic.humanecology.frontdesk.block_1
+	tunic.drycleaner.frontdesk.block_0
+	tunic.wildlife.center.fox.concern
+	tunic.historicalsociety.entry.gramps.hub
+	tunic.drycleaner.frontdesk.block_1
+
+fullscreen : Whether the player is in fullscreen mode
+	NaN
+
+hq : Whether the game is in high-quality
+	NaN
+
+music : Whether the game music is on or off
+	NaN
+
+level_group : Scenario - group of questions
+	0-4
+	5-12
+	13-22
