@@ -15,10 +15,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Data preprocessing
 - PPT and video
 
-**XXX (1234)**
+**He Haoshen (U2123053D)**
 - xxx
 
-**XXX (1234)**
+**Sun Ming Zhong (U2110180J)**
 - xxx
 
 ### References
