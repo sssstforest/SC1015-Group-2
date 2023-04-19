@@ -31,3 +31,7 @@ A dataset was obtained from an ongoing Kaggle competition, which was preprocesse
 - Project source : https://www.kaggle.com/competitions/predict-student-performance-from-game-play
 - Data source : https://www.kaggle.com/competitions/predict-student-performance-from-game-play/data
 - Game : https://pbswisconsineducation.org/jowilder/about/
+
+### Data File link (TA exclusive, access already granted)
+- Data file exceeds 2 GB and .zip file exceeds 500 MB, can't be uploaded to github.
+- https://entuedu-my.sharepoint.com/:f:/r/personal/msun004_e_ntu_edu_sg/Documents/data%20file?csf=1&web=1&e=ZVNgix
